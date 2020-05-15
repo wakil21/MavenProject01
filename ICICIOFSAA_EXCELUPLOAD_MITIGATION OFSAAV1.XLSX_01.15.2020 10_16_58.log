@@ -1,0 +1,15 @@
+[ETL-EXCELUPLOAD]===========================EXCEL UPLOAD GOING TO START======================
+[ETL-EXCELUPLOAD]Load Excel Data--ExcelFileName:: MITIGATION OFSAAV1.XLSX
+[ETL-EXCELUPLOAD]Target Infodom ==> ICICIOFSAA
+[ETL-EXCELUPLOAD]In loadExcelData ExcelFilePath ::/FMW_HOME/Weblogic1213/Middleware/Oracle_Home/wlserver/ExcelTemp/Templates/Mitigation OFSAAv1.xlsx
+[ETL-EXCELUPLOAD]Excel File Path ::/FMW_HOME/Weblogic1213/Middleware/Oracle_Home/wlserver/ExcelTemp/Templates/Mitigation OFSAAv1.xlsx
+[ETL-EXCELUPLOAD]Log file path is/FMW_HOME/Weblogic1213/Middleware/Oracle_Home/wlserver/ExcelTemp/logs
+[ETL-EXCELUPLOAD] PS Query code started at Wed Jan 15 22:16:25 IST 2020
+[ETL-EXCELUPLOAD] psQuery:::: insert into STG_MITIGANTS(D_MATURITY_DATE,FIC_MIS_DATE,F_CVA_HEDGE,F_SENIOR_COLL_FLAG,N_LOAD_RUN_ID,N_MITIGANT_VALUE,V_CCY_CODE,V_COUNTRY_CODE,V_DATA_ORIGIN,V_GAAP_CODE,V_ISSUER_CODE,V_LV_CODE,V_MITIGANT_CODE,V_MITIGANT_TYPE_CODE,XX_N_MITIGANT_VALUE_CONS_CCY,XX_N_MITIGANT_VALUE_RCY_CCY) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[ETL-EXCELUPLOAD] PS Query code done at Wed Jan 15 22:16:25 IST 2020
+[ETL-EXCELUPLOAD] Reading/validating data started at Wed Jan 15 22:16:25 IST 2020
+[ETL-EXCELUPLOAD] Reading/validating data completed at Wed Jan 15 22:16:31 IST 2020
+[ETL-EXCELUPLOAD] Started to insert the records for the table STG_MITIGANTSat Wed Jan 15 22:16:31 IST 2020
+[ETL-EXCELUPLOAD]Succesfully uploaded 120677 records into database for the table STG_MITIGANTS
+[ETL-EXCELUPLOAD]Succesfully uploaded ..So deleting the  Excel File ExcelFilepathnname /FMW_HOME/Weblogic1213/Middleware/Oracle_Home/wlserver/ExcelTemp/Templates/Mitigation OFSAAv1.xlsx
+[ETL-EXCELUPLOAD]===========================EXCEL UPLOAD ENDED======================
